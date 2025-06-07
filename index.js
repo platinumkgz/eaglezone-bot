@@ -136,6 +136,10 @@ bot.onText(/\/start(?:\s+(.+))?/, async (msg, match) => {
   }
 });
 
+app.get('/', (_, res) => {
+  res.send('✅ EagleZone Bot is awake!');
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running on port ${PORT}`);
 });
