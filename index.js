@@ -15,6 +15,7 @@ const WEB_APP_URL = 'https://eaglezonegame.netlify.app';
 const INVITE_BONUS = 500;
 const FRIENDS_PER_REWARD = 10;
 const REWARD_AMOUNT = 10000;
+const PORT = process.env.PORT || 3000;
 
 // Firebase configuration
 const firebaseConfig = {
