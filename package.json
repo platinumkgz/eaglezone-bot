@@ -1,0 +1,20 @@
+{
+  "name": "eaglezone-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот с инвайт-системой для $EAGLE Clicker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "firebase", "eaglezone", "clicker"],
+  "author": "Central Co.",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase": "^9.23.0",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
